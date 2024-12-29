@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0b2434;
+  padding: 20px;
+}
+
+main {
+  background-color: #ffefef;
+  border-radius: 8px;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.try-div {
+  background-color: burlywood;
+  color: black;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.box-div {
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 2px black;
+  justify-content: center;
+  display: flex;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.out-line {
+  display: grid;
+  /* Three equal-width columns 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+  /* 50px (Fixed), auto (flexible), and fixed rows 
+  grid-template-rows: 100px 100px 100px 100px 100px; */
+  grid-template: auto auto / repeat(5, auto);
+  /* Gap between tracks*/
+  gap: 20px;
+}
+
+.dies- {
+  display: flex;
+  padding: 20px;
+  box-shadow: 1px 1px 4px 2px grey;
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dies-h3 {
+  font-size: 3rem;
+}
+
+.btn {
+  display: flex;
+  background-color: blue;
+  color: aliceblue;
+  border-style: none;
+  border-radius: 7px;
+  padding: 7px 9px;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.btn:active {
+  box-shadow: inset -2px 3px 8px -2px #06063a;
+}
