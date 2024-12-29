@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: bisque;
+}
+
+.dark {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(55, 62, 69);
+}
+
+#dark {
+  background-color: rgb(108, 108, 108);
+}
+
+.header {
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+}
+
+.header:hover {
+  cursor: default;
+}
+
+.body {
+  background-color: lightsalmon;
+  padding: 10px 12px;
+}
+
+button {
+  padding: 4px 8px;
+  margin-right: 10px;
+}
+
+button:hover,
+.mode:hover,
+.notes-expand:hover {
+  cursor: pointer;
+}
+
+.head {
+  font-family: "Matemasie", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.notes-input {
+  width: 80%;
+  margin-right: 10px;
+  padding: 4px 8px;
+}
+
+.notes {
+  white-space: pre-wrap;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.mode {
+  height: 30px;
+  width: 30px;
+}
