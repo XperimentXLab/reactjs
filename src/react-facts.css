@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+  background-color: #323232;
+  color: #f5f5dc;
+  text-shadow: 0px 0px 0 #ffffff, 1px -1px 0 #323232, -1px 1px 0 #323232, 1px 1px 0 #323232;
+  
+  /*
+  background-color: rgb(255, 245, 245);
+  color: black;
+  text-shadow: 0px 0px 0 #000000, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+  */
+  
+}
+
+#lightBody,
+.lightBody {
+  background-color: #fff5f5;
+  color: black;
+  text-shadow: 0px 0px 0 #000000, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+body:hover {
+  cursor: default;
+}
+
+.react-logo {
+  height: 50px;
+  padding-right: 10px;
+}
+
+h3 {
+  color: aqua;
+  /*color: rgb(54, 219, 200);*/
+  margin-right: auto;
+}
+
+#lightText {
+  color: '#36dbc8';
+}
+
+.main-div {
+  background-image: url(./components/images/React-logo-black-white.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  background-size: contain;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar > li {
+  padding: 10px;
+}
+
+.navbar > li:hover{
+  background-color: #63f2f2;
+  color: black;
+  /*
+  background-color: rgb(54, 219, 200);
+  color: beige;
+  */
+  cursor: pointer;
+  text-shadow: none;
+}
+
+#lightBody > li:hover {
+  background-color: #36dbc8;
+  color: beige;
+}
+
+.facts-title {
+  color: rgb(99, 242, 242);
+  /*color: rgb(54, 219, 200);*/
+}
+
+.facts-list > li::marker {
+  color: aqua;
+  /*color: rgb(54, 219, 200);*/
+  font-size: 25px;
+}
+
+.facts-list > li {
+  line-height: 35px;
+  list-style: square;
+}
